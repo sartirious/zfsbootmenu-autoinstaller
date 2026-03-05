@@ -25,8 +25,8 @@ This script automates the installation and configuration of ZFSBootMenu on a Lin
    apt update
    apt upgrade
    apt install curl
-   curl -O https://raw.githubusercontent.com/NLaundry/zfsbootmenu-autoinstaller/main/setup-zfsbootmenu.sh
-   chmod +x
+   curl -O https://raw.githubusercontent.com/sartirious/zfsbootmenu-autoinstaller/refs/heads/main/setup-zfsbootmenu.sh
+   chmod +x setup-zfsbootmenu.sh
    ./setup-zfsbootmenu.sh
    ```
 
